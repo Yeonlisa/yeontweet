@@ -59,18 +59,18 @@ const NweetFactory = ({ userObj }) => {
     
     return (
         <form onSubmit={onSubmit} className="factoryForm">
-            <div className="factoryInput_container">
+            <div className="factoryInput__container">
                 <input
-                    className="factoryInput_input"
+                    className="factoryInput__input"
                     value={nweet}
                     onChange={onChange}
                     type="text"
                     placeholder="Write your mind!"
-                    maxLength={200}
+                    maxLength={120}
                 />
-                <input type="submit" value="Nweet" className="factoryInput_arrow" />
+                <input type="submit" value="Send" className="factoryInput__arrow" />
             </div>
-            <label for="attach-file" className="factoryInput_label">
+            <label for="attach-file" className="factoryInput__label">
                 <span>Add photos</span>
                 <FontAwesomeIcon icon={faPlus} />
             </label>

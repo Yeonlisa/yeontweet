@@ -50,8 +50,8 @@ form {
   border-radius: 20px;
   border: 1px solid black;
   text-align: center;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 .formBtn {
@@ -106,10 +106,11 @@ form {
 .factoryInput__input {
   flex-grow: 1;
   height: 40px;
+  width: 320px;
   padding: 0px 20px;
   color: white;
   border: 1px solid #04aaff;
-  border-radius: 20px;
+  border-radius: 10px;
   font-weight: 500;
   font-size: 12px;
 }
@@ -119,14 +120,16 @@ form {
   right: 0;
   background-color: #04aaff;
   height: 40px;
-  width: 40px;
+  width: 50px;
   padding: 10px 0px;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px;
   color: white;
+  box-sizing: border-box;
 }
 
 .factoryInput__label {
+  margin-top: 20px;
   color: #04aaff;
   cursor: pointer;
 }
@@ -143,9 +146,8 @@ form {
 }
 
 .factoryForm__attachment img {
-  height: 80px;
-  width: 80px;
-  border-radius: 40px;
+  height: 150px;
+  width: 320px;
 }
 
 .factoryForm__clear {
@@ -169,15 +171,16 @@ form {
 
 .nweet {
   margin-bottom: 20px;
-  background-color: white;
+  background-color: #121212;
   width: 100%;
   max-width: 320px;
   padding: 20px;
   border-radius: 10px;
+  border: 1px solid #04aaff;
   position: relative;
   display: flex;
   flex-direction: column;
-  color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
 
 .nweet h4 {
@@ -244,17 +247,20 @@ form {
   width: 100%;
   padding: 10px;
   border-radius: 30px;
+  border: 1px solid #04d9ff;
   background-color: #121212;
   margin-bottom: 10px;
   font-size: 12px;
   color: #fff;
+  box-sizing: content-box;
 }
 
 .authSubmit {
   text-align: center;
   background: #04aaff;
   color: black;
-  margin-top: 10;
+  margin-top: 10px;
+  box-sizing: content-box;
   cursor: pointer;
 }
 
