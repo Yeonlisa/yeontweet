@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/yeontweet/static/css/main.8cc8db59.chunk.css",
+    "main.js": "/yeontweet/static/js/main.9fae868c.chunk.js",
+    "main.js.map": "/yeontweet/static/js/main.9fae868c.chunk.js.map",
+    "runtime-main.js": "/yeontweet/static/js/runtime-main.e52e674b.js",
+    "runtime-main.js.map": "/yeontweet/static/js/runtime-main.e52e674b.js.map",
+    "static/js/2.d6f3894b.chunk.js": "/yeontweet/static/js/2.d6f3894b.chunk.js",
+    "static/js/2.d6f3894b.chunk.js.map": "/yeontweet/static/js/2.d6f3894b.chunk.js.map",
+    "index.html": "/yeontweet/index.html",
+    "static/css/main.8cc8db59.chunk.css.map": "/yeontweet/static/css/main.8cc8db59.chunk.css.map",
+    "static/js/2.d6f3894b.chunk.js.LICENSE.txt": "/yeontweet/static/js/2.d6f3894b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e52e674b.js",
+    "static/js/2.d6f3894b.chunk.js",
+    "static/css/main.8cc8db59.chunk.css",
+    "static/js/main.9fae868c.chunk.js"
+  ]
+}
